@@ -2,11 +2,11 @@
 
 生成一个系列10种颜色，可用于主题色搭配选择。
 
-示例1
+示例
 ```javascript
 let colorPalette = require('color-series-10/dist/toggle-rgb-hsv.min').colorPalette;
 // 或
-// let colorPalette = require('color-series-10/dist/toggle-rgb-hsv.min').colorPalette;
+// let colorPalette = require('color-series-10').colorPalette;
 console.log(
     ...colorPalette('#ff0000')
 );

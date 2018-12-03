@@ -10,6 +10,18 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yft/color-series-10.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yft/color-series-10/issues"
+  },
+  "keywords": [
+    "color",
+    "palette",
+    "theme"
+  ],
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.0",
