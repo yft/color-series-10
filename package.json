@@ -1,0 +1,22 @@
+{
+  "name": "color-series-10",
+  "description": "用于生成10个同色系的颜色，可用于主题色搭配。",
+  "version": "0.0.1",
+  "author": "yft <1059802125@qq.com>",
+  "license": "MIT",
+  "main": "dist/color-series-10.min.js",
+  "jsnext:main": "index.js",
+  "private": false,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "webpack": "^3.6.0"
+  }
+}
