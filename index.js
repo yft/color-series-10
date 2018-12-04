@@ -164,3 +164,10 @@ export function colorPalette(hex) {
   }
   return palette;
 }
+
+if (window && !window.ColorSeries10) {
+  window.ColorSeries10 = {
+    genColor,
+    colorPalette
+  };
+}

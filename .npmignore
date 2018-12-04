@@ -7,4 +7,4 @@ node_modules/
 .npmignore
 package-lock.json
 webpack.config.js
-color-series-10-0.0.1.tgz
+color-series-10-*.tgz

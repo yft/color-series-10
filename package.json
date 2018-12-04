@@ -1,7 +1,7 @@
 {
   "name": "color-series-10",
   "description": "用于生成10个同色系的颜色，可用于主题色搭配。",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "yft <1059802125@qq.com>",
   "license": "MIT",
   "main": "dist/color-series-10.min.js",
