@@ -2,7 +2,7 @@ function rangeLimit(num) {
   return Math.min(255, Math.max(0, num));
 }
 function checkRgb(hex) {
-  return /^[#a-f\d]{6,7}$/.test(hex);
+  return /^[#a-fA-F\d]{6,7}$/.test(hex);
 }
 function formatRgb(hex) {
   return hex[0] === '#' ? hex.slice(1) : hex;
